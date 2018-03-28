@@ -1,6 +1,6 @@
 # Burmese Text Classifier
 
-A neural network based text classification system for Burmese. Implemented in JavaScript. See [Hello NN JS](https://github.com/eimg/hello-nn-js) for the techniques used in this system.
+A neural network based text classification system for Burmese. Implemented in JavaScript. See [hello-nn-js](https://github.com/eimg/hello-nn-js) for the techniques used in this system.
 
 ## Usage
 * Edit `data.js` and `ignore.js` with your training data
@@ -9,29 +9,29 @@ A neural network based text classification system for Burmese. Implemented in Ja
 ```JavaScript
 $ node train.js
 // ------
-// 41 sentences in training data
+// 92 sentences in training data
 // ------
-// 41 documents
-// 7 classes
-// 65 unique words
+// 92 documents
+// 12 classes
+// 124 unique words
 // ------
 // training with 20 neurons, alpha: 0.1
-// input matrix: 41x65
-// output matrix: 1x7
+// input matrix: 92x124
+// output matrix: 1x12
 // ------
-// delta after 10000 iterations:0.004234055568715264
-// delta after 20000 iterations:0.00289157388123366
-// delta after 30000 iterations:0.002320731283442854
-// delta after 40000 iterations:0.001987644774146095
-// delta after 50000 iterations:0.001763531752997483
-// delta after 60000 iterations:0.0015998154796089737
-// delta after 70000 iterations:0.001473611983173432
-// delta after 80000 iterations:0.00137255990945845
-// delta after 90000 iterations:0.001289326195310199
-// delta after 100000 iterations:0.0012192523713774868
+// delta after 10000 iterations:0.002545468273469531
+// delta after 20000 iterations:0.0017300341895297772
+// delta after 30000 iterations:0.0013860167538267646
+// delta after 40000 iterations:0.0011858891220595713
+// delta after 50000 iterations:0.001051459703515515
+// delta after 60000 iterations:0.0009533639577651252
+// delta after 70000 iterations:0.0008778035696994181
+// delta after 80000 iterations:0.000817337497039643
+// delta after 90000 iterations:0.0007675568174097644
+// delta after 100000 iterations:0.0007256632173564647
 // ------
 // saved synapses to:synapses.json
-// ------
+------
 ```
 
 * Use `classify()` Function from `classify.js`

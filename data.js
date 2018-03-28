@@ -86,28 +86,5 @@ module.exports = [
     {"class":"အချိန်ပြစကား", "sentence":"စက္ကန့်"},
     {"class":"အချိန်ပြစကား", "sentence":"ခုနှစ်"},
 
-    {"class":"ဆဲဆိုစကား", "sentence":"လခွမ်း"},
-    {"class":"ဆဲဆိုစကား", "sentence":"လခွီး"},
-    {"class":"ဆဲဆိုစကား", "sentence":"စပ"},
-    {"class":"ဆဲဆိုစကား", "sentence":"လဥ"},
-    {"class":"ဆဲဆိုစကား", "sentence":"ငိုးမသား"},
-    {"class":"ဆဲဆိုစကား", "sentence":"ငိုးလေး"},
-    {"class":"ဆဲဆိုစကား", "sentence":"အဖုတ်"},
-    {"class":"ဆဲဆိုစကား", "sentence":"ငိုးမလေး"},
-    {"class":"ဆဲဆိုစကား", "sentence":"မအေလိုး"},
-    {"class":"ဆဲဆိုစကား", "sentence":"လီး"},
-    {"class":"ဆဲဆိုစကား", "sentence":"ငါလိုးမသား"},
-    {"class":"ဆဲဆိုစကား", "sentence":"အရူး"},
-    {"class":"ဆဲဆိုစကား", "sentence":"နင့်မေလင်"},
-    {"class":"ဆဲဆိုစကား", "sentence":"သူတောင်းစား"},
-    {"class":"ဆဲဆိုစကား", "sentence":"စက်ပတ်"},
-    {"class":"ဆဲဆိုစကား", "sentence":"ဘောပဲ"},
-    {"class":"ဆဲဆိုစကား", "sentence":"မင်းနှမငါလိုး"},
-    {"class":"ဆဲဆိုစကား", "sentence":"အေလိုး"},
-    {"class":"ဆဲဆိုစကား", "sentence":"မေလိုး"},
-    {"class":"ဆဲဆိုစကား", "sentence":"စောက်ရူး"},
-    {"class":"ဆဲဆိုစကား", "sentence":"အရူး"},
-    {"class":"ဆဲဆိုစကား", "sentence":"သေလိုက်"},
-
     {"class":"ဒေါသစကား", "sentence":"ဘာကွ"}
 ];

@@ -88,6 +88,8 @@ for(var i in documents) {
 
 /* === Training Model === */
 function train(X, y, hidden_neurons, alpha, epochs, dropout, dropout_percent) {
+    var start_time = new Date();
+
     var X_arr = X.tolist();
 
     console.log("training with " + hidden_neurons + " neurons, alpha: " + alpha);
@@ -175,6 +177,19 @@ function train(X, y, hidden_neurons, alpha, epochs, dropout, dropout_percent) {
     fs.writeFileSync(synapse_file, synapse, "utf8");
     console.log('------');
     console.log("saved synapses to:" + synapse_file);
+    console.log('------');
+
+    // Calculating trining time
+    var end_time = new Date();
+    var training_time = (end_time - start_time) / 1000;
+    if(training_time > 60) {
+        var min = Math.floor(training_time / 60);
+        var sec = Math.floor(training_time % 60);
+        console.log("completed in: " + min + " minutes " + sec + " seconds");
+    } else {
+        console.log("completed in: " + training_time + " seconds");
+    }
+
     console.log('------');
 }
 

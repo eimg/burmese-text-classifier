@@ -86,5 +86,20 @@ module.exports = [
     {"class":"အချိန်ပြစကား", "sentence":"စက္ကန့်"},
     {"class":"အချိန်ပြစကား", "sentence":"ခုနှစ်"},
 
+    {"class":"ဆဲဆိုစကား", "sentence":"လခွမ်း"},
+    {"class":"ဆဲဆိုစကား", "sentence":"လခွီး"},
+    {"class":"ဆဲဆိုစကား", "sentence":"စပ"},
+    {"class":"ဆဲဆိုစကား", "sentence":"လဥ"},
+    {"class":"ဆဲဆိုစကား", "sentence":"ငိုးမသား"},
+    {"class":"ဆဲဆိုစကား", "sentence":"ငိုးလေး"},
+    {"class":"ဆဲဆိုစကား", "sentence":"အေရိုး"},
+    {"class":"ဆဲဆိုစကား", "sentence":"အရူး"},
+    {"class":"ဆဲဆိုစကား", "sentence":"နင့်မေလင်"},
+    {"class":"ဆဲဆိုစကား", "sentence":"သူတောင်းစား"},
+    {"class":"ဆဲဆိုစကား", "sentence":"ဘောပဲ"},
+    {"class":"ဆဲဆိုစကား", "sentence":"စောက်ရူး"},
+    {"class":"ဆဲဆိုစကား", "sentence":"အရူး"},
+
+    {"class":"ဒေါသစကား", "sentence":"သေလိုက်"},
     {"class":"ဒေါသစကား", "sentence":"ဘာကွ"}
 ];

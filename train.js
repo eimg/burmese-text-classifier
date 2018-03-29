@@ -233,7 +233,7 @@ function rand(rows, cols) {
     return result;
 }
 
-// Return 2D array with abs values
+// Return 2D array with 1 for positive and 0 for negative
 function binary_array(matrix) {
     var arr = matrix.tolist();
     var nx = arr.length;

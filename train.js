@@ -258,4 +258,4 @@ var X = nj.array(training);
 var y = nj.array(output);
 
 // X, y, hidden_neurons, alpha, epochs, dropout, dropout_percent
-train(X, y, 20, 0.1, 100000, false, 0.2);
+train(X, y, 20, 0.3, 100000, false, 0.2);

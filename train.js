@@ -2,7 +2,7 @@ var fs = require('fs');
 var nj = require('numjs');
 
 var syllable = require("./syllable-breaker");
-var training_data = require('./data.js');
+var training_data = require('./less-data.js');
 
 // stop words - List of words (syllable) that are
 // too common, noisy and less important

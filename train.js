@@ -2,7 +2,7 @@ var fs = require('fs');
 var nj = require('numjs');
 
 var syllable = require("./syllable-breaker");
-var training_data = require('./less-data.js');
+var training_data = require('./data.js');
 
 // stop words - List of words (syllable) that are
 // too common, noisy and less important
@@ -258,4 +258,4 @@ var X = nj.array(training);
 var y = nj.array(output);
 
 // X, y, hidden_neurons, alpha, epochs, dropout, dropout_percent
-train(X, y, 20, 0.3, 100000, false, 0.2);
+train(X, y, 20, 0.01, 100000, false, 0.2);
